@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 75%;
+  margin: 40px auto;
+  padding: 40px 120px;
+}
+header{
+    height: 100px;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-top: 25px;
+    margin-bottom: 0px;
+}
+#logo{
+    float: left;
+    width: 50%;
+   
+}
+p{
+    color: darkgray;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#logo h2 {
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    margin-right: 10px;
+    font-size: 28px;
+    font-family: 'Yellowtail', cursive;
+}
+#logo p{
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: rgb(185, 184, 184); 
+}
+#nav-list {
+  float: right;
+}
+.ruler{
+    clear: both;
+    background-size: 5px 5px; 
+    height: 16px;
+    background-image: linear-gradient(45deg, transparent 46%, rgb(170, 170, 170) 49%, rgb(170, 170, 170) 51%, transparent 55%);
+}
+#showcase{
+    clear:both;
+}
+#share{
+    display: inline-block;
+    margin-left: 15px;
+}
+#description{
+    float: left;
+}
+#print{
+    margin-top: 125px;
+    float: right;
+}
+#print img{
+    float:left;
+    margin-top: 4px;
+}
+#print p{
+    display: inline;
+    text-align: right;
+    font-weight: 100;
+    font-size:14px;
+    text-transform: uppercase;
+    color: darkgray;
+}
+#check-list{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(115, 99, 77);
+    height: 170px;
+    background-image: url('../img/list-bg.png');
+}
+
+#list-1{
+    margin-left: 30px;
+    padding:20px;
+    width: 40%;
+    float: left;
+}
+#list-2{
+    padding:20px;
+    width: 50%;
+    float: right;
+}
+hr{
+    font-size: 1.25em;
+}
+#portfolio h2{
+    float: right;
+    position:relative;
+    right:620px;
+    bottom: 10px;
+}
+#portfolio p{
+    display: inline;
+    font-size: 18px;
+    color: gray;
+}
+#portfolio button{
+    background-color: rgb(213, 104, 64);
+    text-transform: uppercase;
+    border: none;
+    color:white;
+    padding:18px;
+    float: right;
+    position: relative;
+    bottom:50px;
+    cursor: pointer;
+}
+#bottom{
+    margin-top: 50px;
+}
+#small-logo{
+    position: relative;
+    bottom: 27px;
+}
+footer{
+    margin-top: 20px;
+    clear: both;
+}
+#bottom{
+    text-align: center;
+    color:gray;
+    font-weight: 500;
+}
